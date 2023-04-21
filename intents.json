@@ -1,0 +1,75 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi!",
+        "Hey",
+        "Hi",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "HELLOOOO",
+        "HELLOO",
+        "Good morning!",
+        "Good afternoon!",
+        "Good evening!",
+        "Hello Kenny!"
+      ],
+      "responses": [
+        "Hey :-)",
+        "HELLLOOOOOO, thanks for visiting!! Feel free to ask me anything about myself or my projects, I'd be happy to assist!",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Tell me about yourself", 
+        "Who are you?", 
+        "What do you do?",
+        "What is your purpose?"
+      ],
+      "responses": [
+        "I'm a virtual version of Kenny!! Please feel free to ask me anything you'd like to know more about me :)"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", 
+        "See you later", 
+        "Goodbye"
+      ],
+      "responses": [
+        "Thanks for visiting! Feel free to take a look at my projects and resume, and contact me if you have anything inquiries! Have a fantastic day!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", 
+        "Thank you", 
+        "That's helpful", 
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!", 
+        "Any time!", 
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "what-is-blueprint",
+      "patterns": [
+        "What is Blueprint?",
+        "What is LA Blueprint?"
+      ],
+      "responses": [
+        "LA Blueprint is a" 
+      ]
+    }
+  ]
+}
